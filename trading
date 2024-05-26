@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SaaS Trading Software</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            padding: 2rem;
+            background-color: #f8f9fa;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+        nav {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>SaaS Trading Software</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to Our Sophisticated Trading Software</h2>
+                    <h3>Empower Your Trading Strategies</h3>
+                </hgroup>
+                <p>Our software offers advanced trading tools, real-time analytics, and comprehensive risk management features to help you stay ahead in the market.</p>
+                <figure>
+                    <img src="https://via.placeholder.com/800x400" alt="Trading Software Screenshot">
+                    <figcaption><a href="#" target="_blank">Learn more about our software</a></figcaption>
+                </figure>
+                <h3>Advanced Features</h3>
+                <p>Our platform is equipped with state-of-the-art features designed to enhance your trading experience:</p>
+                <ul>
+                    <li>Real-time market data and analysis</li>
+                    <li>Automated trading strategies</li>
+                    <li>Customizable dashboards and alerts</li>
+                    <li>Secure and fast execution of trades</li>
+                </ul>
+                <h3>Comprehensive Support</h3>
+                <p>We provide 24/7 support to ensure your trading operations run smoothly at all times.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to our newsletter</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required>
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#terms">Terms of Service</a> • <a href="#privacy">Privacy Policy</a></small>
+    </footer>
+</body>
+</html>
